@@ -16,7 +16,8 @@ let package = Package(
             targets: ["ModuleSample"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/realm/realm-swift", from: "10.24.1")
+        .package(url: "https://github.com/realm/realm-swift", from: "10.28.2"),
+        .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
     ],
     targets: [
       .target(
