@@ -8,9 +8,9 @@
             // results.
 
 
-            let key = try Test.addTestObject(ofName: "Maria")
-            let object = Test.getObject(ofType: TestObject.self, forPrimaryKey: key)
-            XCTAssertNotNil(object)
-            XCTAssertEqual(object.name, "Maria")
+//            let key = try Test.addTestObject(ofName: "Maria")
+//            let object = Test.getObject(ofType: TestObject.self, forPrimaryKey: key)
+//            XCTAssertNotNil(object)
+//            XCTAssertEqual(object.name, "Maria")
         }
     }
